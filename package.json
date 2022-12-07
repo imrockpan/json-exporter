@@ -20,6 +20,8 @@
     "xls",
     "xlsx",
     "csv",
+    "html",
+    "xml",
     "txt"
   ],
   "author": "byetool",

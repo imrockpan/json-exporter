@@ -105,4 +105,4 @@ const options = {
 
 This module is used in [Tapicker](https://www.tapicker.com/) and works fine.
 
-![tapicker](images/tapicker.png)
+![tapicker](https://github.com/ibyetool/json-exporter/raw/main/images/tapicker.png)
