@@ -1,0 +1,38 @@
+{
+  "name": "@byetool/json-exporter",
+  "version": "1.0.0",
+  "description": "A library that supports exporting json to .xls, .xlsx, .csv, .html, .xml, .json, .txt files in browser",
+  "types": "./lib/index.d.ts",
+  "main": "./lib/index.js",
+  "scripts": {
+    "build:watch": "tsc --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ibyetool/json-exporter.git"
+  },
+  "keywords": [
+    "browser",
+    "json",
+    "export",
+    "excel",
+    "xls",
+    "xlsx",
+    "csv",
+    "txt"
+  ],
+  "author": "byetool",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ibyetool/json-exporter/issues"
+  },
+  "homepage": "https://github.com/ibyetool/json-exporter#readme",
+  "dependencies": {
+    "file-saver": "^2.0.5",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@types/file-saver": "^2.0.5"
+  }
+}
