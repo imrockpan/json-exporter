@@ -1,6 +1,8 @@
 .vscode
 *.log
+.prettierrc.json
 tsconfig.json
 node_modules/
+images/
 test/
 src/
