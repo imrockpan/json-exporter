@@ -1,6 +1,6 @@
 {
   "name": "@byetool/json-exporter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A library that supports exporting json to .xls, .xlsx, .csv, .html, .xml, .json, .txt files in browser",
   "types": "./lib/index.d.ts",
   "main": "./lib/index.js",

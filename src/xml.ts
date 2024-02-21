@@ -48,7 +48,7 @@ function renderXML(
       content = keyHeaders
         .map((key, index) =>
           renderXML(data[key], {
-            tag: key,
+            tag: 'col',
             props: { name: aliasHeaders[index] },
             indent: indent + 2,
           })
@@ -56,10 +56,10 @@ function renderXML(
         .join('\n')
     } else {
       content = Object.keys(data)
-        .map((item) =>
-          renderXML(data[item], {
-            tag: item,
-            props: {},
+        .map((key) =>
+          renderXML(data[key], {
+            tag: 'col',
+            props: { name: key },
             indent: indent + 2,
           })
         )
